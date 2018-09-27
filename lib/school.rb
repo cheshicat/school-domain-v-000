@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    @roster.values.min
+    @roster.values.flatten.min
   end
 
 
