@@ -7,6 +7,9 @@ class School
   end
 
   def add_student (student_name, grade)
+    while @roster[grade] = {}
+
+    end
 
   end
 
