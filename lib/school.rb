@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    @roster.keys
+    @roster.values
   end
 
 
