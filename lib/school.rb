@@ -8,7 +8,7 @@ class School
 
   def add_student (student_name, grade)
     while @roster[grade] = []
-
+      @roster[grade] << student_name
     end
 
   end
