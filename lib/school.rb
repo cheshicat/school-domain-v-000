@@ -7,10 +7,9 @@ class School
   end
 
   def add_student (student_name, grade)
-    while @roster[grade] = []
+    if @roster[grade] = []
       @roster[grade] << student_name
     end
-
   end
 
 
