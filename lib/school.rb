@@ -20,6 +20,7 @@ class School
   end
 
   def sort
+    @roster.min
   end
 
 
