@@ -1,5 +1,5 @@
 class School
-  attr_accessor :roster
+  attr_accessor :roster, :student_name
 
   def initialize(school_name)
     @school_name = school_name
@@ -11,7 +11,7 @@ class School
       @roster[grade] << student_name
     else
       @roster[grade] != []
-      @roster[grade] << "student_name"
+      @roster[grade] << student_name
     end
   end
 
